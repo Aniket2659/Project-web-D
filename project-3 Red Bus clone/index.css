@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  /* Redbus red color */
+  padding: 5px;
+  margin: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: black; */
+  /* border: 2px solid black; */
+  z-index: 1000;
+
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vertical-separater {
+
+  width: 0px;
+  height: 20px;
+  background: #e0e0e0;
+  color: #e0e0e0;
+  margin: 1rem 1rem;
+
+}
+
+.nav-link-left {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.rb_vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 10px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 3px;
+  color: #1d1d1d;
+  height: auto;
+  width: auto;
+  font-size: 15px;
+
+}
+
+.img_rb_vertical {
+  height: 35px;
+  width: 35px;
+  align-self: center;
+  filter: brightness(0);
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  text-decoration: none;
+  color: #1d1d1d;
+  /* font-weight: bold; */
+  transition: color 0.3s ease;
+  padding: 10px;
+  height: 15px;
+
+}
+
+.nav-link:hover {
+  color: black;
+  /* Redbus yellow color on hover */
+  cursor: pointer;
+  background: #e7e7e7;
+  border-radius: 10px;
+}
+
+.navItem {
+  margin-left: 5px;
+
+}
+
+.img_rb_vertical:hover,
+.rb_vertical:hover {
+  cursor: pointer;
+  background: #e7e7e7;
+  border-radius: 10px;
+  filter: brightness(1);
+}
+
+.banner {
+  margin-top: 100px;
+  height: 32.5rem;
+  background: url(https://st.redbus.in/Images/HomeIndia/HeroImage.png) 0% 0% / cover round;
+  /* background-repeat: round; Replace with your banner image */
+  background-size: cover;
+  /* height: 200px; Adjust the height as needed */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner-text {
+  margin-top: 70px;
+}
+
+/*  */
+
+
+.search-bar {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #e62117;
+  /* Redbus red color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.offer-container {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.offer-card {
+  background-color: rgb(14, 113, 67);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.world-cup-offer {
+  margin-top: 20px;
+  padding: 100px;
+  border-radius: 50px;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+  display: flex;
+  border-radius: 48px;
+  padding: 2rem;
+  gap: 2rem;
+  background-size: cover;
+  background-position: right center;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.download-discription-01{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-discription-01 > h2{
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.about-rating{
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  
+}
+.download-discription{
+  background:transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  gap: 5px;
+}
+
+.about-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+}
+.about-us-images {
+  width: 35.25rem;
+  background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.primo-section{
+  margin-top: 80px;
+}
+
+.hBpcMq {
+  width: 22rem;
+  height: 9.8rem;
+  padding: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+  gap: 1.5rem;
+}
+
+.primo-section{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.PrimoSection__PrimoSubSection{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  width: 90%;
+  margin-top: 20px;
+}
+footer {
+  background-color: #f3efef;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
