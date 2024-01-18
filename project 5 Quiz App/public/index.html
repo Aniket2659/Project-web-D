@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App website</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Poppins', sans-serif;
+        }
+        
+       
+    </style>
+</head>
+<body class=" bg-[#001e4d]">
+    <div class="flex flex-col justify-center items-center bg-[#fff] w-[90%] max-w-[600px] m-[100px_auto_0] rounded-sm p-[30px] "> 
+        <h1 class="text-3xl font-bold border-b border-solid border-gray-800 p-b-[30px]">Sample Quiz</h1>
+        <div class="quiz p-t-[20px]">
+            <h2 id="question" class="text-[#001e4d] font-[600] text-[18px] m-[15px_0]">Question goes here</h2>
+            <div id="answer-buttons">
+               
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+            <button id="next-btn" class=" bg-[#001e4d] text-[#fff] font-[150px] border-[0px] p-[10px] m-[20px_auto_0] w-[150px] rounded-[4px] cursor-pointer block disabled:cursor-no-drop">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
